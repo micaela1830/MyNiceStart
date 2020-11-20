@@ -3,5 +3,6 @@
     <string name="register">have you got an account?Register</string>
     <string name="registro">Have you got an account? Register</string>
     <string name="guest">GUEST</string>
+    <string name="btnOk">Ok</string>
 
 </resources>

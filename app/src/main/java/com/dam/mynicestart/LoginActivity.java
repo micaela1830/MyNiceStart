@@ -27,4 +27,12 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void login(View view) {
+        Intent i = new Intent(this, MainActivity.class);
+        //esto es para que cuando le demos al boton de volver desaparezca el login y no vuelva nos aparezca nunca más
+        i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(i);
+    }
 }

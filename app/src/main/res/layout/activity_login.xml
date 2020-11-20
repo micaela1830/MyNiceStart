@@ -72,7 +72,8 @@
         android:textColor="#5600EF"
         android:backgroundTint="#D6E5CCEA"
         app:layout_constraintTop_toBottomOf="@id/password"
-        app:layout_constraintStart_toStartOf="@id/password">
+        app:layout_constraintStart_toStartOf="@id/password"
+        android:onClick="login">
 
     </com.google.android.material.button.MaterialButton>
 
