@@ -4,29 +4,129 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity"
-    android:background="#589776">
+    tools:context=".SplashActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/scrim"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/eslogan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="VetDog"
         android:fontFamily="@font/fugaz_one"
+        android:text="VetDog"
         android:textSize="56dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="150dp" />
 
     <ImageView
-        android:id="@+id/perros"
-        android:layout_width="324dp"
-        android:layout_height="312dp"
-        android:src="@drawable/perritos"
+        android:id="@+id/punto1"
+        android:layout_width="22dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="268dp"
+        android:layout_marginLeft="268dp"
+        android:layout_marginTop="304dp"
+        android:src="@drawable/punto1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/punto2"
+        android:layout_width="22dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginLeft="248dp"
+        android:layout_marginTop="348dp"
+        android:src="@drawable/punto2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/punto3"
+        android:layout_width="22dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginLeft="192dp"
+        android:layout_marginTop="372dp"
+        android:src="@drawable/punto3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/punto4"
+        android:layout_width="22dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="352dp"
+        android:src="@drawable/punto1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/punto5"
+        android:layout_width="22dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="304dp"
+        android:src="@drawable/punto1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/punto6"
+        android:layout_width="22dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginLeft="192dp"
+        android:layout_marginTop="232dp"
+        android:src="@drawable/punto1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/punto7"
+        android:layout_width="22dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginLeft="244dp"
+        android:layout_marginTop="256dp"
+        android:src="@drawable/punto1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+    android:id="@+id/punto8"
+    android:layout_width="22dp"
+    android:layout_height="24dp"
+    android:layout_marginStart="140dp"
+    android:layout_marginLeft="140dp"
+    android:layout_marginTop="256dp"
+    android:src="@drawable/punto8"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/hueso"
+        android:layout_width="66dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="285dp"
+        android:src="@drawable/hueso"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/eslogan"/>
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
