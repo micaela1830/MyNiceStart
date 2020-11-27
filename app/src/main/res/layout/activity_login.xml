@@ -5,27 +5,52 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:background="@color/colorAccent">
+    android:background="#80D9C6">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/huella2"
+        android:layout_width="59dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="284dp"
+        android:layout_marginLeft="284dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/huella" />
+    <ImageView
+        android:id="@+id/huella1"
+        android:layout_width="59dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/huella" />
+
+    <TextView
+        android:id="@+id/Titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/girl"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:scaleType="fitStart"/>     <!-- android:scaleType="fitStart"___>ajustame al inicio -->
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/fugaz_one"
+        android:text="@string/tv_titulo"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="88dp"
-        android:layout_height="88dp"
-        android:layout_marginTop="36dp"
+        android:id="@+id/Perro"
+        android:layout_width="254dp"
+        android:layout_height="251dp"
+        android:src="@drawable/perrito"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/ic_tienda_2"
-        />
+       app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
 
     <!-- aqui la imagen si se quiere cambiar de color se tendría que generar en formato svg en lugar de png mediante el drwable vector asset -->
 

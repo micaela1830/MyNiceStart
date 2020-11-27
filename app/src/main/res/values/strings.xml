@@ -4,5 +4,7 @@
     <string name="registro">Have you got an account? Register</string>
     <string name="guest">GUEST</string>
     <string name="btnOk">Ok</string>
+    <string name="tv_titulo">VetDog</string>
+    <string name="tv_frase">Cuidamos de ti</string>
 
 </resources>
