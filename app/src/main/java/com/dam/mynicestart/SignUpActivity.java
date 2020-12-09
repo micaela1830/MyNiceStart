@@ -6,7 +6,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+/**
+ * Verntana de registro con botón diferente
+ * @author micaela18
+ * @see LoginActivity
+ */
+
 public class SignUpActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

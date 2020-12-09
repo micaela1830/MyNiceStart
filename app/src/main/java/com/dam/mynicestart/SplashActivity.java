@@ -13,6 +13,11 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+/**
+ * Ventana de bienvenida con una animación y una scrim
+ * @author micaela18
+ * @see LoginActivity
+ */
 public class SplashActivity extends AppCompatActivity {
 
     TextView tvFrase;
