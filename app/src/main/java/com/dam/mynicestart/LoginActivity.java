@@ -7,6 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+/**
+ * @author micaela18
+ * @see  SignUpActivity
+ *
+ */
+
 public class LoginActivity extends AppCompatActivity {
 
     @Override

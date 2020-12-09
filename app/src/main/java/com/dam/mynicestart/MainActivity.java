@@ -6,6 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+/**
+ * Ventana que lanza a otra mediante un boton
+ * @author micaela18
+ * @see  MainActivity2
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
