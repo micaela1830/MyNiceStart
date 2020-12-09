@@ -5,6 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+/**
+ * Ventana con boton cancelar que vuelve a tras
+ * @author micaela18
+ */
 
 public class SignUpActivity extends AppCompatActivity {
 
