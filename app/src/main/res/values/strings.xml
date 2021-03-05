@@ -6,5 +6,8 @@
     <string name="btnOk">Ok</string>
     <string name="tv_titulo">VetDog</string>
     <string name="tv_frase">Cuidamos de ti</string>
+    <string name="app_bar_menu_share">Share</string>
+    <string name="app_bar_menu_search">Search</string>
+    <string name="app_bar_menu_bookmark">Bookmark</string>
 
 </resources>

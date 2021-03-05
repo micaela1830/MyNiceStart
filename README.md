@@ -1,8 +1,10 @@
 # MyNiceStart
 [mica en github](https://github.com/micaela1830)
+[lidia en github](https://github.com/LidiaParral)
+
 
 **Splash** | **Login** | **Sign Up** |
------- | ----- | ------ |
+------ ----- | ------ |
 ![](img/splash.jpg) | ![](img/login.jpg) | ![](img/signup.jpg)|
 
  **Main** | **Main2**

@@ -9,10 +9,10 @@
 
 
         <ImageView
-            android:id="@+id/Perro"
+            android:id="@+id/Perro3"
             android:layout_width="225dp"
             android:layout_height="225dp"
-            android:layout_marginTop="108dp"
+            android:layout_marginTop="112dp"
             android:src="@drawable/perro"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -63,7 +63,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#D6FFFFFF"
                 android:hint="E-mail"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -107,6 +108,7 @@
             android:text="Registrarse"
             android:textColor="#F2F2F2"
             style="@style/ButtonStright"
+
             app:layout_constraintStart_toStartOf="@id/contraseña2"
             app:layout_constraintTop_toBottomOf="@id/contraseña2"
             >

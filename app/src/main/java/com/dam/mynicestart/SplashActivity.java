@@ -32,12 +32,10 @@ public class SplashActivity extends AppCompatActivity {
     ImageView img8;
     ImageView hueso;
 //ObjectAnimator ---> Nos proporciona soporte para animar nuestras objetos
-    private ObjectAnimator animatorTodo;
-    private ObjectAnimator animatorRotation;
-    private ObjectAnimator animatorAlpha;
+
 
     //AnimatorSet----> Reproduce un conjunto de ObjectAnimator en un orden específico. Las animaciones pueden ser todas a la vez
-    private AnimationSet animatorSet;
+    //private AnimationSet animatorSet;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
