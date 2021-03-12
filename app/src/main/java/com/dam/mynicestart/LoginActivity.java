@@ -58,27 +58,6 @@ public class LoginActivity extends AppCompatActivity {
                 .into(imgPerro);
     }
 
-    @Override
-    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
-        super.onCreateContextMenu(menu, v, menuInfo);
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_context, menu);
-    }
-
-    @Override
-    public boolean onContextItemSelected(@NonNull MenuItem item) {
-        AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo)item.getMenuInfo();
-        switch (item.getItemId()){
-            case R.id.edit:
-                Toast toast = Toast.makeText(this,"going CONTEXT EDIT", Toast.LENGTH_LONG);
-                toast.show();
-            case R.id.delete:
-                Toast toast2 = Toast.makeText(this,"going CONTEXT DELETE", Toast.LENGTH_LONG);
-                toast2.show();
-
-        }
-        return super.onContextItemSelected(item);
-    }
 
     public void login(View view) {
         Intent i = new Intent(this, MainActivity.class);

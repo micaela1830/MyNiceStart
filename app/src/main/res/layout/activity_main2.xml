@@ -25,7 +25,8 @@
     android:paddingBottom="@dimen/keyline_5"
     android:paddingStart="@dimen/keyline_4"
     android:paddingEnd="@dimen/keyline_4"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity2"
+    android:background="@drawable/fondo">
 
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout

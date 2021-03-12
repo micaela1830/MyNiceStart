@@ -4,10 +4,18 @@ import android.content.Context;
 
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
+import androidx.test.rule.ActivityTestRule;
 
+import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.action.ViewActions.click;
+import static androidx.test.espresso.action.ViewActions.typeText;
+import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static org.junit.Assert.*;
 
 /**
@@ -17,10 +25,34 @@ import static org.junit.Assert.*;
  */
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
+
+    @Rule
+    public ActivityTestRule mActivityRule = new ActivityTestRule<>(
+            LoginActivity.class);
+
     @Test
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("com.dam.mynicestart", appContext.getPackageName());
     }
+
+    @Test
+    public void activityLaunch() {
+        onView(withId(R.id.btnlogin)).perform(click());
+//        onView(withId(R.id.text_header)).check(matches(isDisplayed()));
+//        onView(withId(R.id.button_second)).perform(click());
+//        onView(withId(R.id.text_header_reply)).check(matches(isDisplayed()));
+    }
+/*
+    @Test
+    public void textInputOutput() {
+        onView(withId(R.id.editText_main)).perform(typeText("1st activity main ET"));
+        //click the send button in the 1st activity
+        onView(withId(R.id.button_main)).perform(click());
+
+        //validate the 2nd activity's text view field to check if the text display is correct
+        onView(withId(R.id.text_message)).check(matches(withText("1st activity main ET")));
+    }
+    */
 }
